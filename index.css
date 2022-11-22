@@ -1,16 +1,13 @@
-.divCon{
-  padding: 8%;
-  text-align: center;
-  text-shadow: 2px 4px 4px #333333;
-
-  background-image: url(https://www.seekpng.com/png/detail/23-231683_under-construction-png-file-under-construction-tape-png.png);
-  background-size: 100% 90%;
-  background-repeat: no-repeat;
-  opacity: 0.95;
-  
+.cropped2 {
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .divWelcome{
-    text-align: center;
+  text-align: center;
   background: radial-gradient(red, yellow, rgb(30, 150, 255));
   background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg);
   padding: 10%;
@@ -47,6 +44,7 @@
     -2px 1px 0 #000,
     2px -1px 0 #000,
     -2px -1px 0 #000;
+  
   
 }
 
