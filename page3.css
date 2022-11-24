@@ -9,6 +9,7 @@
   background-size: 100% 100%;
   box-shadow: 1px 1px 10px #000000;
 }
+
 .div2{
   background-color: #E0FFFF ;
   border: 5px solid darkorange;
@@ -19,7 +20,6 @@
   background-image: url(https://dictionary.cambridge.org/images/thumb/blue_noun_001_01604.jpg?version=5.0.274.jpg);
   background-size: 100% 100%;
   box-shadow: 1px 1px 10px #000000;
-  opacity: 0.95;
   
   background-image: -moz-linear-gradient(top, #32CD32, #FFA500);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #32CD32), color-stop(1.0, #FFA500));
@@ -38,5 +38,24 @@ table, th, td {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0.5;
   
+}
+
+td:hover, th:hover{
+  opacity: 1;
+}
+
+
+body{
+  background-color: #a87a1e;
+}
+
+.th1{
+  opacity: 0.0 !important;
+  visibility: hidden !important;
+}
+.buttonInTable{
+  height: 100%;
+  width: 100%;
 }
