@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="page3.css">
+  <script src="page3.js"></script>
   <title>Brian's Resume Website!</title>
 </head>
 <body>
@@ -18,23 +19,27 @@
     <div class="div2">
     <br>
     <h1>Does this look cool?</h1>
+      <h3>Pick a Greeting</h3>
       <table class="table2">
         <tr>
-          <th>Hi</th>
-          <th>Hi</th>
+          <th><button type="button" id="th1" class="buttonInTable" onclick="loadGreeting()">Hi</button></th>
+          <th><button type="button" id="th2" class="buttonInTable" onclick="loadGreeting2()">Bye</button></th>
         </tr>
         <tr>
-          <td>Hi</td>
-          <td>Hi</td>
+          <td><button type="button" id="th2" class="buttonInTable" onclick="loadGreeting3()">Hello</button></td>
+          <td><button type="button" id="th2" class="buttonInTable" onclick="loadGreeting4()">cya</button></td>
         </tr>
         <tr>
-          <td>Hi</td>
-          <td>Hi</td>
+          <td><button type="button" id="th2" class="buttonInTable" onclick="loadGreeting5()">Good Morning</button></td>
+          <td><button type="button" id="th2" class="buttonInTable" onclick="loadGreeting6()">Good Night</button></td>
         </tr>
       </table>
+      <p id="Greeting">Greeting Selected: </p>
     <br>
+        <button type="button" class="jazzMan" onclick="resetGreeting()"> Reset Greeting</button>
   </div>
-
-<!-- End your code here -->
+ 
+  
+  
 </body>
 </html>
