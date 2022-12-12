@@ -2,9 +2,9 @@
 
 Resume website for COSC 219 
 
-page2: froms.
-page3: mostly css but some JQuery.
-COSC213Page: draggable html + dress up stick man game.
+page2: froms. 
+page3: mostly css but some JQuery. 
+COSC213Page: draggable html + dress up stick man game. 
 
 need to add: froms/reports, databases, AJAX, Wordpress
 
