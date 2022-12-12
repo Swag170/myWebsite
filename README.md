@@ -12,5 +12,5 @@ need to add: froms/reports, databases, AJAX, Wordpress
 want to add:
 confetti when you beat the dress up stick man game
     - https://codingislove.com/i-threw-a-confetti-party-on-my-website-find-out-how-spotlight-of-the-day-series/
-
+    - https://gscode.in/confetti-background/
 
