@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="briansPage.js"></script>
+  <link rel="stylesheet" href="briansPage.css">
+<title>Brians Page</title>
+</head>
+<body>
+<!-- Start your code here -->
+  
+  
+  
+<style>
+body {
+  background: pink;
+  font-family: 'Inconsolata', sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 700;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  padding: 2em;
+  text-align: center;
+}
+main h1, main h3, main p {
+  flex: 100%;
+  max-width: 600px;
+}
+main h1 {
+  font: 700 40px/1.3 'Inconsolata', monospace;
+}
+main h3 {
+  font: 700 24px/1.3 'Inconsolata', monospace;
+  margin: .5em 0 1.8em;
+}
+
+a {
+  color: #1572b6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.head {
+  position: fixed;
+  animation: 50s headpopping infinite;
+  top: 0;
+  left: 0;
+  transform: translateY(-50vh) rotate(180deg);
+}
+
+@keyframes headpopping {
+  3%, 8% {
+    transform: translateY(-50vh) rotate(180deg);
+  }
+  6% {
+    transform: translateY(0) rotate(180deg);
+  }
+  10% {
+    transform: translateY(-50vh) translateX(110vw) rotate(270deg);
+  }
+  12%, 20% {
+    transform: translateY(50vh) translateX(110vw) rotate(270deg);
+  }
+  15% {
+    transform: translateY(50vh) translateX(80vw) rotate(270deg);
+  }
+  22% {
+    transform: translateY(50vh) translateX(110vw) rotate(0);
+  }
+  24% {
+    transform: translateY(110vh) translateX(110vw) rotate(0);
+  }
+  26%, 30% {
+    transform: translateY(110vh) translateX(70vw) rotate(0);
+  }
+  28% {
+    transform: translateY(80vh) translateX(70vw) rotate(0);
+  }
+  32% {
+    transform: translateY(110vh) translateX(70vw) rotate(90deg);
+  }
+  34% {
+    transform: translateY(110vh) translateX(-50vw) rotate(90deg);
+  }
+  36%, 40% {
+    transform: translateY(30vh) translateX(-50vw) rotate(90deg);
+  }
+  38% {
+    transform: translateY(30vh) translateX(0) rotate(90deg);
+  }
+  42% {
+    transform: translateY(-45vh) translateX(-50vw) rotate(230deg);
+  }
+  44%, 48% {
+    transform: translateY(-45vh) translateX(100vw) rotate(230deg);
+  }
+  46% {
+    transform: translateY(-3vh) translateX(85vw) rotate(230deg);
+  }
+  50% {
+    transform: translateY(-45vh) translateX(100vw) rotate(180deg);
+  }
+  52%, 56% {
+    transform: translateY(-45vh) translateX(50vw) rotate(180deg);
+  }
+  54% {
+    transform: translateY(0) translateX(50vw) rotate(180deg);
+  }
+  58% {
+    transform: translateY(-45vh) translateX(-50vw) rotate(0);
+  }
+  60% {
+    transform: translateY(115vh) translateX(-50vw) rotate(0);
+  }
+  62%, 65% {
+    transform: translateY(75vh) translateX(0) rotate(0);
+  }
+  72% {
+    transform: translateY(85vh) translateX(53vw) rotate(0);
+  }
+  74% {
+    transform: translateY(110vh) translateX(53vw) rotate(0);
+  }
+  76% {
+    transform: translateY(110vh) translateX(53vw) rotate(90deg);
+  }
+  78% {
+    transform: translateY(110vh) translateX(-50vw) rotate(90deg);
+  }
+  80%, 88% {
+    transform: translateY(15vh) translateX(-50vw) rotate(90deg);
+  }
+  82% {
+    transform: translateY(15vh) translateX(0) rotate(90deg);
+  }
+  83% {
+    transform: translateY(15vh) translateX(0) rotate(98deg);
+  }
+  84% {
+    transform: translateY(15vh) translateX(0) rotate(83deg);
+  }
+  85% {
+    transform: translateY(15vh) translateX(0) rotate(92deg);
+  }
+  86% {
+    transform: translateY(15vh) translateX(0) rotate(87deg);
+  }
+  90% {
+    transform: translateY(15vh) translateX(-50vw) rotate(180deg);
+  }
+  92% {
+    transform: translateY(-50vh) translateX(-50vw) rotate(180deg);
+  }
+  94% {
+    transform: translateY(-50vh) translateX(0) rotate(180deg);
+  }
+}
+code {
+  display: inline-block;
+  padding: 1px 7px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+  .head{
+    max-height: 200px;
+  }
+  
+</style>
+<img class="head" src="https://cdn.discordapp.com/attachments/888132451036192809/1048019317041672302/20221201_152103.jpg" alt="Spider-Man" />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><a target='_blank' href='www.javascriptfreecode.com' style='font-size: 1pt; text-decoration: none'>JavaScript Best Codes</a>                                
+
+
+  
+  <div class="welcomeStuff">
+  
+  
+  
+
+<p id="lw" class="dragme">Welcome!</p>
+
+<!-- End your code here -->
+  
+    <div>
+  <p id="p1" class="dragme">click for a random color.</p>
+</div>
+
+<button id="b1" onclick="randomize()" class="dragme">Click Me!</button>
+  
+  </div>  
+  
+  <br><br><br>
+  
+  
+  <br>
+  
+<div class="longLine"></div>  
+  
+  <br>
+  
+  <p>Dress up Mr.Stickman (Game):</p>
+  
+  <br><br><br><br>
+  
+  
+  <div class="wrapper">
+    <div class="headPerson"></div>
+    <div class="torso"></div>
+    <div class="leftarm"></div>
+    <div class="rightarm"></div>
+    <div class="leftleg"></div>
+    <div class="leftfoot"></div>
+    <div class="rightleg"></div>
+    <div class="rightfoot"></div>
+</div>
+  
+  <br><br>
+  
+  
+
+  <br><br><br>
+  
+  <div id="draggable" class="dragme"></div> 
+   <div id="draggable2" class="dragme"></div> 
+  <img src="https://w7.pngwing.com/pngs/826/253/png-transparent-t-shirt-polo-shirt-clothing-sleeve-black-t-shirt-black-crew-neck-t-shirt-tshirt-fashion-cloth-thumbnail.png" alt="drag-and-drop image script" title="drag-and-drop image script" class="dragme" id="draggableV2">
+  
+  <img src="https://www.pngall.com/wp-content/uploads/2016/09/Cargo-Pant-Free-Download-PNG.png" alt="drag-and-drop image script" title="drag-and-drop image script" class="dragme">
+  
+  <br><br>
+  
+
+
+
+
+  
+</body>
+</html>
