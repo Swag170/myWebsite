@@ -16,14 +16,12 @@
 
 <script>
 function validation2() {
-  // Get the value of the input field with id="numb"
   let x = document.getElementById("anything").value;
-  // If x is Not a Number or less than one or greater than 10
   let text;
-  if (x == true) {
-    text = "Input Good";
-  }else {
+  if (x === "") {
     text = "Input not valid";
+  }else {
+    text = "Input Good";
   }
   alert(text);
 }
