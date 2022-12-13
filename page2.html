@@ -15,6 +15,27 @@
 <p id="demo"></p>
 
 <script>
+function validation2() {
+  // Get the value of the input field with id="numb"
+  let x = document.getElementById("anything").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (x == true) {
+    text = "Input Good";
+  }else {
+    text = "Input not valid";
+  }
+  alert(text);
+}
+</script>
+ 
+
+  <p>Please input anything:</p>
+    <input type="text" name="fname" id="anything" required>
+  <button type="button" onclick="validation2()">Submit</button>
+  
+  
+  <script>
 function myFunction() {
   // Get the value of the input field with id="numb"
   let x = document.getElementById("numb").value;
@@ -32,26 +53,24 @@ function myFunction() {
   document.getElementById("demo").innerHTML = text;
 }
 </script>
-
-  
-  <p>Please input anything:</p>
-  <form action="/page2.html">
-    <input type="text" name="fname" required>
-    <input type="submit" value="Submit">
-  </form>
   
   
   <br><br>
+  
+  
+  
+  
+  
   
 <h2>HTML Forms</h2>
 
 <form action="/index.html">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <input type="text" id="fname" name="fname" value="John" required><br>
+  <label for="lname">email:</label><br>
+  <input type="email" id="email" name="email" value="Doe" required><br>
   <label for="pword">Password:</label><br>
-  <input type="password" id="pword" name="pword" value=""><br><br>
+  <input type="password" id="pword" name="pword" value="" required><br><br>
   
   <input type="submit" value="Submit">
 </form> 
