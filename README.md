@@ -1,6 +1,7 @@
 # myWebsite
 
 Resume website for COSC 219 
+http://brianusher.online/
 
 Page2: froms. 
 Page3: mostly css but some JQuery. 
