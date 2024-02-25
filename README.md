@@ -1,7 +1,7 @@
 # myWebsite
 
 Resume website for COSC 219 
-http://brianusher.online/
+https://swag170.github.io/myWebsite/
 
 Page2: froms. 
 Page3: mostly css but some JQuery. 
